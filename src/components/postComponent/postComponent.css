@@ -1,0 +1,58 @@
+.postComponent {
+  width: auto;
+  padding: 1.6rem;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  color: var(--first-color);
+  box-shadow: 0 0 10px #13131f0d;
+}
+
+.postTitle {
+  font-family: "Lato";
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 2.5rem;
+}
+
+.postMadeBy {
+  font-family: "Lato";
+  font-size: 1.7rem;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.postContent {
+  /* margin-top: 3.1rem; */
+  font-family: "Lato";
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: justify;
+  opacity: 0.7;
+}
+
+.commentSection {
+  display: flex;
+  margin-top: 0.5rem;
+  position: relative;
+  /* bottom: 12rem; */
+}
+
+.postCommentCounter {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #1d7182;
+  margin-left: auto;
+  margin-right: 0.5rem;
+}
+
+.postCommentCounterNumber {
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-family: "Lato";
+  position: relative;
+  left: 33%;
+  top: 6%;
+}

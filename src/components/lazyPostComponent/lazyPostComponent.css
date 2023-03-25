@@ -1,0 +1,57 @@
+.LazyPostComponent {
+  width: auto;
+  height: 29.4rem;
+  padding: 1.6rem;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  color: var(--first-color);
+  box-shadow: 0 0 10px #13131f0d;
+}
+
+.LazyPostTitle {
+  font-family: "Lato";
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 2.5rem;
+  max-width: 60rem;
+  height: 2.5rem;
+  background-color: #e2e2e2;
+  animation: lazyLoading 1000ms infinite linear;
+  background: linear-gradient(to right, #eeeeee 0%, #80aab2 13%, #eeeeee 33%);
+}
+
+.LazyPostMadeBy {
+  max-width: 20rem;
+  background-color: #e2e2e2;
+  height: 1.7rem;
+  font-family: "Lato";
+  font-size: 1.7rem;
+  font-weight: 400;
+  opacity: 0.7;
+  animation: lazyLoading 3100ms infinite linear;
+  background: linear-gradient(to right, #eeeeee 0%, #80aab2 13%, #eeeeee 33%);
+}
+
+.LazyPostContent {
+  margin-top: 7rem;
+  font-family: "Lato";
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: justify;
+  opacity: 0.7;
+  max-width: 60rem;
+  height: 1.8rem;
+  animation: lazyLoading 1000ms infinite linear;
+  background: linear-gradient(to right, #eeeeee 0%, #80aab2 13%, #eeeeee 33%);
+}
+
+@keyframes lazyLoading {
+  0% {
+    background-position: 0rem 0;
+  }
+  100% {
+    background-position: 60rem 0;
+  }
+}

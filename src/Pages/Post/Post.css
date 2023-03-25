@@ -1,0 +1,61 @@
+.containerPosts {
+  padding: 2.5rem;
+}
+
+.comeBack {
+  width: 3rem;
+  height: 3rem;
+  background-color: #f5f1f1;
+  border-radius: 4px;
+  margin-left: auto;
+  cursor: pointer;
+  box-shadow: 0 0 10px #13131f0d;
+}
+
+.mainContainerPost {
+  padding: 1.8rem 3.6rem;
+  max-width: 90rem;
+  background-color: #fff;
+  margin-inline: auto;
+  border-radius: 8px;
+  color: var(--first-color);
+  box-shadow: 0 0 10px #13131f0d;
+}
+
+.titlePost {
+  font-size: 2.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.madePost {
+  margin-bottom: 1.6rem;
+  font-size: 1.6rem;
+  opacity: 0.8;
+}
+
+.postContent {
+  margin-top: 7rem;
+  font-size: 1.6rem;
+  opacity: 0.8;
+}
+
+.commentsParentContainer {
+  display: flex;
+  padding: 2.5rem;
+}
+
+.commentsContainer {
+  max-width: 90rem;
+  background-color: #fff;
+  margin-inline: auto;
+  padding: 1.8rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #13131f0d;
+}
+
+.commentsIndexName {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 4rem;
+  margin-left: 1.5rem;
+}

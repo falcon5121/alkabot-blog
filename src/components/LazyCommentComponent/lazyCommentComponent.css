@@ -1,0 +1,79 @@
+.LazyCommentsComponentContainer {
+  padding: 1.8rem;
+  background-color: #fff;
+}
+
+.LazyCommentsComponentTitle {
+  font-size: 1.7rem;
+  padding-bottom: 2rem;
+  max-width: 40rem;
+  height: 1.7rem;
+  animation: lazyLoadingMidCom 1000ms infinite linear;
+  background: linear-gradient(to right, #eeeeee 0%, #80aab2 13%, #eeeeee 33%);
+}
+
+.ComponentDataPerson {
+  padding-bottom: 1rem;
+}
+
+.LazyCommentsComponentName {
+  font-size: 1.4rem;
+  opacity: 0.7;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.LazyCommentsComponentEmail > img {
+  display: none;
+}
+
+.LazyCommentsComponentEmail {
+  opacity: 0.4;
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 20rem;
+  height: 1.4rem;
+  animation: lazyLoadingSmallCom 1000ms infinite linear;
+  background: linear-gradient(to right, #eeeeee 0%, #80aab2 13%, #eeeeee 33%);
+}
+
+.LazyCommentsComponentBody {
+  font-size: 1.5rem;
+  opacity: 0.8;
+  max-width: 70rem;
+  height: 1.5rem;
+  margin-top: 2rem;
+  animation: lazyLoadingBigCom 1000ms infinite linear;
+  background: linear-gradient(to right, #eeeeee 0%, #80aab2 13%, #eeeeee 33%);
+}
+
+@keyframes lazyLoadingSmallCom {
+  0% {
+    background-position: 0rem 0;
+  }
+  100% {
+    background-position: 20rem 0;
+  }
+}
+@keyframes lazyLoadingMidCom {
+  0% {
+    background-position: 0rem 0;
+  }
+  100% {
+    background-position: 40rem 0;
+  }
+}
+
+@keyframes lazyLoadingBigCom {
+  0% {
+    background-position: 0rem 0;
+  }
+  100% {
+    background-position: 70rem 0;
+  }
+}

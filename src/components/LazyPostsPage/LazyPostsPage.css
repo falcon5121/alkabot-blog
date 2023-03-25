@@ -1,0 +1,98 @@
+.LazyContainerPosts {
+  padding: 2.5rem;
+}
+
+.comeBack {
+  width: 3rem;
+  height: 3rem;
+  background-color: #f5f1f1;
+  border-radius: 4px;
+
+  margin-left: auto;
+  cursor: pointer;
+  box-shadow: 0 0 10px #13131f0d;
+}
+
+.LazyMainContainerPost {
+  padding: 1.8rem 3.6rem;
+  max-width: 90rem;
+  background-color: #fff;
+  margin-inline: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #13131f0d;
+}
+
+.LazyTitlePost {
+  font-size: 2.2rem;
+  margin-bottom: 1.6rem;
+  max-width: 60rem;
+  height: 2.2rem;
+  animation: lazyLoadingMid 1000ms infinite linear;
+  background: linear-gradient(to right, #eeeeee 0%, #80aab2 13%, #eeeeee 33%);
+}
+
+.LazyMadePost {
+  margin-bottom: 1.6rem;
+  font-size: 1.6rem;
+  opacity: 0.8;
+  max-width: 20rem;
+  height: 1.6rem;
+  animation: lazyLoadingSmall 1000ms infinite linear;
+  background: linear-gradient(to right, #eeeeee 0%, #80aab2 13%, #eeeeee 33%);
+}
+
+.LazyPostsContent {
+  margin-top: 7rem;
+  font-size: 1.6rem;
+  opacity: 0.8;
+  max-width: 80rem;
+  height: 1.6rem;
+  animation: lazyLoadingBig 1000ms infinite linear;
+  background: linear-gradient(to right, #eeeeee 0%, #80aab2 13%, #eeeeee 33%);
+}
+
+.LazyCommentsParentContainer {
+  padding: 2.5rem;
+}
+
+.LazyCommentsContainer {
+  max-width: 90rem;
+  background-color: #fff;
+  margin-inline: auto;
+  padding: 1.8rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #13131f0d;
+}
+
+.LazyCommentsIndexName {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 4rem;
+  margin-left: 1.5rem;
+}
+
+@keyframes lazyLoadingSmall {
+  0% {
+    background-position: 0rem 0;
+  }
+  100% {
+    background-position: 20rem 0;
+  }
+}
+@keyframes lazyLoadingMid {
+  0% {
+    background-position: 0rem 0;
+  }
+  100% {
+    background-position: 60rem 0;
+  }
+}
+
+@keyframes lazyLoadingBig {
+  0% {
+    background-position: 0rem 0;
+  }
+  100% {
+    background-position: 80rem 0;
+  }
+}

@@ -1,0 +1,114 @@
+.main {
+  background-color: #f3f5f7;
+  color: var(--first-color);
+}
+
+.header {
+  height: 25rem;
+  width: auto;
+  background: rgb(58, 68, 93);
+  background: linear-gradient(
+    90deg,
+    rgba(58, 68, 93, 1) 0%,
+    rgb(29, 113, 130) 100%
+  );
+  display: flex;
+  justify-content: center;
+}
+
+.containerHeaderText {
+  width: 90rem;
+  padding: 4.8rem 1.8rem;
+}
+
+.containerHeaderText > h4 {
+  font-family: "Lato";
+  color: white;
+  font-size: 2.4rem;
+}
+
+.formHeader {
+  margin-top: 7.4rem;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.2);
+  gap: 1.6rem;
+  padding: 0 1.6rem;
+  border-radius: 5px;
+}
+
+.containerTextSpace {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.containerTextSpace > li {
+  font-size: 2.2rem;
+  color: #fff;
+  font-family: "Lato";
+}
+
+.Icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputHeader {
+  padding-block: 1.2rem;
+  width: 100%;
+  border: none;
+  font-size: 2.2rem;
+  outline: none;
+  background: none;
+  opacity: 0.5;
+  color: white;
+}
+.inputHeader::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+.mainContainer {
+  max-width: 90rem;
+  height: auto;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 1.8rem;
+  gap: 2.5rem;
+}
+
+.hamburguerMenu {
+  width: 5.1rem;
+  height: 5.1rem;
+  border-radius: 50%;
+  background-color: var(--third-color);
+  position: fixed;
+  right: 4rem;
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hamburguerLine {
+  height: 2px;
+  background-color: var(--first-color);
+  margin-block: 0.4rem;
+  margin-right: 1.2rem;
+}
+.hamburguerLine:nth-of-type(1) {
+  width: 25px;
+  margin-left: auto;
+}
+.hamburguerLine:nth-of-type(2) {
+  width: 20px;
+  margin-left: auto;
+}
+.hamburguerLine:nth-of-type(3) {
+  width: 15px;
+  margin-left: auto;
+}
